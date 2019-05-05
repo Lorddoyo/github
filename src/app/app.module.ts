@@ -7,11 +7,13 @@ import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GittafutaComponent } from './gittafuta/gittafuta.component';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GittafutaComponent
+    GittafutaComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
