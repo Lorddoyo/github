@@ -8,12 +8,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GittafutaComponent } from './gittafuta/gittafuta.component';
 import { HighlightDirective } from './highlight.directive';
+import { DateCounterPipe } from './date-counter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     GittafutaComponent,
-    HighlightDirective
+    HighlightDirective,
+    DateCounterPipe
   ],
   imports: [
     BrowserModule,
