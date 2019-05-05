@@ -4,16 +4,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## By Adano Godana
 
 # BDD
-|    Behaviour            |    input      |    output       |
-|-------------------------|---------------|-----------------|
-|Enter Quote              | I am who am I |Display quote    |
-|-------------------------|---------------|-----------------|
-|Delete a quote           |Delete Action  |Delete quote     |
-|-------------------------|---------------|-----------------|
-|Up Vote a Quote          |Up vote action |up vote +1       |
-|-------------------------|---------------|-----------------|
-|Down Vote a Quote        |downvote action| down vote +1    |
-|-------------------------|---------------|-----------------|
+|    Behaviour             |    input               |    output              |
+|--------------------------|------------------------|------------------------|
+|Search for user           | input"Lorddoyo"        |Display user"Lorddoyo"  |
+|--------------------------|------------------------|------------------------|
+|Search for user repository|Input "lordoyo/pig-dice"|Display user repository |
+|                          |                        |   : "lorddoyo/pig-dice |
+|--------------------------|------------------------|------------------------|
+
 
 
 ## Setup/Installation Requirements
@@ -23,14 +21,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Fork the data onto your own personal repository
 * run 'ng install' on terminal
 * run 'ng serve' on terminal
-* to access the live website,click on this url https://Lorddoyo.github.io/quotee/
+* to access the live website,click on this url https://Lorddoyo.github.io/github/
 ## known bugs
 
 no bugs
 
 ## Technologies Used
 
-CSS for styling , HTML for ebpage design. Typescript for back-end.
+CSS for styling , HTML for webpage design. Typescript for back-end.
 
 ## Dependecies
 
