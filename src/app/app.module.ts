@@ -9,13 +9,15 @@ import { AppComponent } from './app.component';
 import { GittafutaComponent } from './gittafuta/gittafuta.component';
 import { HighlightDirective } from './highlight.directive';
 import { DateCounterPipe } from './date-counter.pipe';
+import { RepositoryComponent } from './repository/repository.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GittafutaComponent,
     HighlightDirective,
-    DateCounterPipe
+    DateCounterPipe,
+    RepositoryComponent
   ],
   imports: [
     BrowserModule,
