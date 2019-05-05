@@ -1,3 +1,11 @@
 body{
   background-image: url(src/assets/damn.jpg);
 }
+h5{
+font-family: 'Abel', sans-serif;
+}
+h1{
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+  font-size: 44px;
+}
