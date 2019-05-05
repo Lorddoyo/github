@@ -14,7 +14,7 @@ export class GittafutaService {
 
 
   constructor(private http:HttpClient) {
-    this.gittafuta= new Gittafuta("","","","","","","")
+    this.gittafuta= new Gittafuta("","","","","","","",new Date)
    }
 
 
