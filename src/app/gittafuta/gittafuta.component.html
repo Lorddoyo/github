@@ -1,3 +1,24 @@
-<p>
-  gittafuta works!
-</p>
+<h1>Github Searcher</h1>
+<div class="row">
+  <div class="col-md-12">
+    <form class="form-group">
+      <input class = "form-control" placeholder="Enter Username"  [(ngModel)] = "userName"  name = "userName" (keyup) = tafutaMsee()>
+        <button type="reset" class="btn btn-info">Clear</button>
+
+
+    </form>
+
+  </div>
+
+</div>
+<div class="col-md-8">
+       <div class="output card">
+         <h3 appHighlight><strong>{{gittafuta.username}}</strong></h3>
+         <h6><strong>Bio: </strong> <em>{{gittafuta.bio}}</em></h6>
+         <h6><strong>Name: </strong> <em>{{gittafuta.name}}</em></h6>
+         <h6><strong>Repositories: </strong> <em>{{gittafuta.repositories}}</em></h6>
+         <h6><strong>Followers: </strong> <em>{{gittafuta.followers}}</em></h6>
+         <h6><strong>Following: </strong> <em>{{gittafuta.following}}</em></h6>
+         <button class="btn btn-info"><a [href]="gittafuta.link">Visit GitHub Page</a></button>
+       </div>
+       </div>
