@@ -1,27 +1,62 @@
-# Githubsearcher
+# Github Searcher
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.It is an online website that allows a person to search for users at gitHub using their usernames. It also allows one to search for a specific repository on gitHub
+## By Adano Godana
 
-## Development server
+# BDD
+|    Behaviour            |    input      |    output       |
+|-------------------------|---------------|-----------------|
+|Enter Quote              | I am who am I |Display quote    |
+|-------------------------|---------------|-----------------|
+|Delete a quote           |Delete Action  |Delete quote     |
+|-------------------------|---------------|-----------------|
+|Up Vote a Quote          |Up vote action |up vote +1       |
+|-------------------------|---------------|-----------------|
+|Down Vote a Quote        |downvote action| down vote +1    |
+|-------------------------|---------------|-----------------|
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Setup/Installation Requirements
+* Open your browser browser.
+* Load gitHub on your browser.
+* Search for Lorddoyo/.... repository.
+* Fork the data onto your own personal repository
+* run 'ng install' on terminal
+* run 'ng serve' on terminal
+* to access the live website,click on this url https://Lorddoyo.github.io/quotee/
+## known bugs
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+no bugs
 
-## Build
+## Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+CSS for styling , HTML for ebpage design. Typescript for back-end.
 
-## Running unit tests
+## Dependecies
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Angular CLI
 
-## Running end-to-end tests
+## Support and contact details
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Contact me using my Email:johnkojo7777@gmail.com
 
-## Further help
+### License
+MIT License  Copyright (c) 2019 **ADANO GODANA**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
