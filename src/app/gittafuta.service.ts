@@ -14,7 +14,7 @@ export class GittafutaService {
 
 
   constructor(private http:HttpClient) {
-    this.gittafuta= new Gittafuta("","","","","","","",new Date)
+    this.gittafuta= new Gittafuta("","","","","","","","",new Date)
    }
 
 
@@ -23,6 +23,7 @@ export class GittafutaService {
      interface ApiResponse{
        login: string;
        name: string;
+       avatar_url :any;
        bio: any;
        public_repos: number;
        followers: number;
@@ -35,6 +36,7 @@ export class GittafutaService {
 
           this.gittafuta.username = response.login
           this.gittafuta.name = response.name
+          this.gittafuta.avatar= response.avatar_url
           this.gittafuta.bio = response.bio
           this.gittafuta.repositories = response.public_repos
           this.gittafuta.followers = response.followers
@@ -46,6 +48,7 @@ export class GittafutaService {
         error=>{
           this.gittafuta.username = "Lorddoyo"
           this.gittafuta.name = "lorddoyo"
+          this.gittafuta.avatar= ""
           this.gittafuta.bio = ""
           this.gittafuta.repositories = 14
           this.gittafuta.followers = 1
