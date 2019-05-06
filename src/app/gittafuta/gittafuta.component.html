@@ -24,12 +24,17 @@
 <br>
 <br>
 
+
+<div class="col-xs-4" style="max-width: 300px">
+<div class="output card">
+ <img [src]="gittafuta.avatar" alt="avatar">
+</div>
+</div>
+
 <div class="col-md-8">
        <div class="output card">
-         <div class="col-md-4">
-           <img [src]="gittafuta.avatar" alt="avatar">
-         </div>
-         <div class="col-md-8">
+
+
          <h3 appHighlight><strong>{{gittafuta.username}}</strong></h3>
          <h5><strong>Bio: </strong> <em>{{gittafuta.bio}}</em></h5>
          <h5><strong>Name: </strong> <em>{{gittafuta.name}}</em></h5>
@@ -37,9 +42,10 @@
          <h5><strong>Followers: </strong> <em>{{gittafuta.followers}}</em></h5>
          <h5><strong>Following: </strong> <em>{{gittafuta.following}}</em></h5>
          <button class="btn btn-danger"><a [href]="gittafuta.link">Visit GitHub Page</a></button>
-         </div>
+
        </div>
        </div>
+
        <h4>  {{gittafuta.date|dateCounter}}:Days passed since Keying Your UserName</h4>
        </div>
        </div>
