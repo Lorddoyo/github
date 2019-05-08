@@ -7,10 +7,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 |    Behaviour             |    input               |    output              |
 |--------------------------|------------------------|------------------------|
 |Search for user           | input"Lorddoyo"        |Display user"Lorddoyo"  |
-|--------------------------|------------------------|------------------------|
+|                          |                        |                        |
 |Search for user repository|Input "lordoyo/pig-dice"|Display user repository |
 |                          |                        |   : "lorddoyo/pig-dice |
-|--------------------------|------------------------|------------------------|
+|                          |                        |                        |
 
 
 
